@@ -84,6 +84,7 @@ public class SplashActivity extends AppCompatActivity {
             }
         }
         // Get permissions success or not
+        // Get permissions success or not
         if (mMissPermissions.isEmpty()) {
             startMainActivity();
         } else {
